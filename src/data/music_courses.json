@@ -1,0 +1,86 @@
+{
+ "courses": [
+ {
+  "id": 1,
+  "title": "Introduction to Music Theory",
+  "slug": "introduction-to-music-theory",
+  "description": "Learn the fundamentals of music theory including scales, chords, and rhythm.",
+  "price": 49.99,
+  "instructor": "John Smith",
+  "image":"https://i.pinimg.com/736x/31/55/e0/3155e0b8ae312ab867ccbabc86af2189.jpg  ",
+  "isFeatured": true
+ },
+ {
+  "id": 2,
+  "title": "Guitar for Beginners",
+  "slug": "guitar-for-beginners",
+  "description": "Start your guitar journey with this comprehensive course for beginners.",
+  "price": 59.99,
+  "instructor": "Jane Doe",
+  "image":"https://i.pinimg.com/736x/a4/67/e7/a467e73b5b2db094ce21263e24f80892.jpg",
+  "isFeatured": true
+ },
+ {
+  "id": 3,
+  "title": "Piano Masterclass",
+  "slug": "piano-masterclass",
+  "description": "Master the piano with advanced techniques and performance tips.",
+  "price": 79.99,
+  "instructor": "Emily Davis",
+  "image":"https://i.pinimg.com/736x/c0/6d/e2/c06de2b1c2bb97e4429a533fdaa8a260.jpg",
+  "isFeatured": false
+ },
+    {
+    "id": 4,
+    "title": "Drum Techniques",
+    "slug": "drum-techniques",
+    "description": "Learn essential drum techniques and rhythms for all styles of music.",
+    "price": 69.99,
+    "instructor": "Michael Brown",
+    "image":"https://i.pinimg.com/736x/7c/37/32/7c37329e2e5c55e935e65fee8908978e.jpg",
+    "isFeatured": true
+    },
+    {
+    "id": 5,
+    "title": "Vocal Training",
+    "slug": "vocal-training",
+    "description": "Improve your singing voice with professional vocal training exercises.",
+    "price": 59.99,
+    "instructor": "Sarah Wilson",
+    "image":"https://i.pinimg.com/1200x/26/07/3c/26073cd0b459b894561dd3b52cd41c8a.jpg",
+    "isFeatured": false
+    },
+    {
+        "id": 6,
+        "title": "Music Production with Ableton Live",
+        "slug": "music-production-ableton-live",        
+        "description": "Learn how to produce music using Ableton Live with this comprehensive course.",
+        "price": 89.99,
+        "instructor": "David Lee",
+        "image":"https://i.pinimg.com/736x/93/32/34/93323410b61d9f272cdfba2c0c361d32.jpg",
+        "isFeatured": true
+    },
+    {
+        "id": 7,
+        "title": "Saxophone Essentials",
+        "slug": "saxophone-essentials",        
+        "description": "Master the basics of playing the saxophone with this essential course.",
+        "price": 54.99,
+        "instructor": "Laura Martinez",
+        "image":"https://i.pinimg.com/736x/cb/94/17/cb94175a6c40eb6e6d69a4a9ab50b2a4.jpg",
+        "isFeatured": true
+    },
+    {
+        "id": 8,
+        "title": "Electronic Music Production",
+        "slug": "electronic-music-production",        
+        "description": "Create your own electronic music tracks with this in-depth production course.",
+        "price": 99.99,
+        "instructor": "Chris Johnson",
+        "image":"https://i.pinimg.com/736x/9c/17/ed/9c17edef3f2e768d83ce30667a79a5e9.jpg",
+        "isFeatured": true
+    }
+ ]
+}
+
+
