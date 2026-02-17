@@ -1,11 +1,11 @@
 "use client";
 
-import { Navbar } from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-black flex items-start justify-center pt-32">
-      <Navbar/>
-    </div>
+    <main className="min-h-screen bg-black/96 antialiased bg-grid-white/[0.02] flex items-start justify-center pt-32">
+      <HeroSection />
+    </main>
   );
 }

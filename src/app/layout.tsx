@@ -1,3 +1,4 @@
+import { Navbar } from "@/components/Navbar";
 import "./globals.css";
 
 export const metadata = {
@@ -11,8 +12,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="scroll-smooth dark">
       <body className="bg-black text-white antialiased">
+        <div className="fixed top-0 left-0 right-0 flex justify-center items-center z-[100]">
+          <Navbar />
+        </div>
         {children}
       </body>
     </html>
