@@ -2,6 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { Button } from './ui/moving-border'
 
+
 function HeroSection() {
   return (
     <div className="h-auto md:h-160 w-full rounded-md flex flex-col items-center justify-center relative mx-auto py-10 md:py-0">
@@ -12,8 +13,8 @@ function HeroSection() {
         fill="white"
       />
 
-      <div className="p-4 relative z-[10] w-full text-center">
-        <h1 className="mt-10 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+      <div className="p-4 relative z-10 w-full text-center">
+        <h1 className="mt-10 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-linear-to-b from-neutral-50 to-neutral-400">
           Master the art of music
         </h1>
 
